@@ -1083,3 +1083,139 @@ a{
         text-align: center;
     }
 }
+
+@media (max-width: 240px) {
+    #aboutus .row .left form{
+        padding: 1rem;
+        background-color: white;
+        gap: 8px;
+        color: rgba(108, 100, 106, 1);
+    }
+    #aboutus .row .left form label{
+        color: rgba(108, 100, 106, 1);
+        margin-bottom: 3px;
+        font-size: smaller;
+        font-size: 10px;
+    }
+    
+    #aboutus .row .left form input{
+        outline: none;
+        border: 1px solid rgba(186, 186, 186, 0.8);
+        padding: 4px 12px 4px 4px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    #aboutus #industry{
+        display: block;
+        font-size: 14px;
+        border: 1px solid rgba(186, 186, 186, 0.8);
+        color: rgba(108, 100, 106, 0.5);
+        margin-bottom: 8px;
+        padding: 4px 12px 4px 4px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    
+    #aboutus #industry option {
+        padding: 4px;
+        font-size: 10px;
+        background-color: #fff;
+        color: rgba(108, 100, 106, 0.5);
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    #aboutus .row .left form .send{
+        padding: 0.5rem 1.2rem;
+        background-color: rgba(4, 190, 2, 1);
+        color: white;
+        outline: none;
+        font-size: 16px;
+        border: none;
+        display: inline-block;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 10px;
+    }
+
+    #footer .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000A85;
+        color: white;
+        padding: 1.5rem 1rem;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    #aboutus .row .left form{
+        padding: 1rem;
+        background-color: white;
+        gap: 8px;
+        color: rgba(108, 100, 106, 1);
+    }
+    #aboutus .row .left form label{
+        color: rgba(108, 100, 106, 1);
+        margin-bottom: 3px;
+        font-size: smaller;
+        font-size: 10px;
+    }
+    
+    #aboutus .row .left form input{
+        outline: none;
+        border: 1px solid rgba(186, 186, 186, 0.8);
+        padding: 4px 12px 4px 4px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    #aboutus #industry{
+        display: block;
+        font-size: 14px;
+        border: 1px solid rgba(186, 186, 186, 0.8);
+        color: rgba(108, 100, 106, 0.5);
+        margin-bottom: 8px;
+        padding: 4px 12px 4px 4px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    
+    #aboutus #industry option {
+        padding: 4px;
+        font-size: 10px;
+        background-color: #fff;
+        color: rgba(108, 100, 106, 0.5);
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    #aboutus .row .left form .send{
+        padding: 0.5rem 1.2rem;
+        background-color: rgba(4, 190, 2, 1);
+        color: white;
+        outline: none;
+        font-size: 16px;
+        border: none;
+        display: inline-block;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 10px;
+    }
+
+    #footer .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000A85;
+        color: white;
+        padding: 1.5rem 1rem;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+}
