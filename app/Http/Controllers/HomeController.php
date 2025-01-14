@@ -24,7 +24,7 @@ class HomeController extends Controller
             'email' => 'required',
             'jobTitle' => 'required',
             'companyName' => 'required',
-            'industry' => 'required|exists:industry,id',
+            'industry' => 'required',
             'phoneNumber' => 'required'
         ]);
 

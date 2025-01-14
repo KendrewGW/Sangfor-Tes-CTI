@@ -5,7 +5,9 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/store', [HomeController::class, 'store'])->name('homecontroller.store');
-Route::get('/', [HomeController::class, 'industry'])->name('home');
+Route::get('/', function(){
+    return view('home');
+})->name('home');
 
 Route::get('/thankyou', function () {
     return view('thankyou');
