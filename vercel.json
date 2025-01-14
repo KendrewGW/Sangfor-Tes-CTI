@@ -12,7 +12,7 @@
             "dest": "/public/image/"
         },
         {
-            "src": "/css/(.*)",
+            "src": "/css/index.css",
             "dest": "/public/css/"
         },
         {
