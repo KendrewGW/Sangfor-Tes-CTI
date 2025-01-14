@@ -2,7 +2,7 @@
 
 require __DIR__  . '/../public/index.php';
 
-$app = require_once __DIR__ . '/../public/css/index.css';
+    // $app = require_once __DIR__ . '/../public/css/index.css';
 
 // $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
