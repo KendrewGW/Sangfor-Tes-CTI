@@ -5,7 +5,7 @@
         <a href="{{ url('/lang/en') }}">EN</a>
     </div>
     <div class="brand row">
-        <img src="{{ asset('image/helios.png') }}" alt="" class="helios">
-        <img src="{{ asset('image/sangfor.png') }}" alt="" class="sangfor">
+        <img src="{{ asset('helios.png') }}" alt="" class="helios">
+        <img src="{{ asset('sangfor.png') }}" alt="" class="sangfor">
     </div>
 </section>  

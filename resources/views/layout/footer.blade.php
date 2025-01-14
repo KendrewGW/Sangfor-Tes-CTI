@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="image">
-            <img src="{{ asset('image/worldmap.png') }}" alt="world map" class="footerImg">
+            <img src="{{ asset('worldmap.png') }}" alt="world map" class="footerImg">
         </div>
     </div>
     <div class="bottom row">

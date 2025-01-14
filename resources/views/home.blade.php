@@ -199,7 +199,7 @@
                         and Threat Hunting</h3>
                 </div>
                 <div class="col">
-                    <img src="{{ asset('image/icon3.png') }}" alt="">
+                    <img src="../image/icon3.png" alt="">
                     <h3 style="color: rgba(25, 69, 107, 1)">Device Security
                         Maintenance</h3>
                 </div>
