@@ -12,10 +12,6 @@
             "dest": "/public/image/"
         },
         {
-            "src": "/css/index.css",
-            "dest": "/public/css/"
-        },
-        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
