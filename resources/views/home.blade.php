@@ -21,7 +21,7 @@
             <p>Overall, Sangfor Cyber Command is a powerful tool for businesses looking to strengthen their cybersecurity defenses and safeguard their assets from modern-day threats. </p>
         </div>
         <div class="left">
-            <form action="{{ route('homecontroller.store') }}" class="col" method="POST">
+            <form action="{{ route('thankyou') }}" class="col" method="">
                 @csrf
                 <div>
                     <h3 style="color: rgba(41, 54, 96, 1);">Dapatkan Free Trial selama 1 bulan</h3>
@@ -53,9 +53,13 @@
                     <label for="">Industry<span style="color: red">*</span></label>
                     <select id="industry" name="industry" required>
                         <option value="" disabled selected>Select Industry</option>
-                        @foreach ($industries as $i)
-                        <option value="{{ $i->id }}">{{ $i->name }}</option>
-                        @endforeach
+                        <option value="IT">IT</option>
+                        <option value="Finance">Finance</option>
+                        <option value="HealthCare">HealthCare</option>
+                        <option value="Manufacturing">Manufacturing</option>
+                        <option value="Energy">Energy</option>
+                        <option value="Education">Education</option>
+                        <option value="Transportation & Logistics">Transportation & Logistics</option>
                     </select>
                 </div>
                 <div class="col">
