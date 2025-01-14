@@ -21,7 +21,7 @@
             <p>Overall, Sangfor Cyber Command is a powerful tool for businesses looking to strengthen their cybersecurity defenses and safeguard their assets from modern-day threats. </p>
         </div>
         <div class="left">
-            <form action="{{ route('thankyou') }}" class="col" method="">
+            <form action="{{ route('thankyou') }}" class="col" method="POST">
                 @csrf
                 <div>
                     <h3 style="color: rgba(41, 54, 96, 1);">Dapatkan Free Trial selama 1 bulan</h3>
@@ -199,7 +199,7 @@
                         and Threat Hunting</h3>
                 </div>
                 <div class="col">
-                    <img src="../image/icon3.png" alt="">
+                    <img src="{{ asset('image/icon3.png') }}" alt="">
                     <h3 style="color: rgba(25, 69, 107, 1)">Device Security
                         Maintenance</h3>
                 </div>

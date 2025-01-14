@@ -1,15 +1,14 @@
 {
     "version": 2,
-    "framework": null,
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.6.1"
+            "runtime": "vercel-php@0.6.0"
         }
     },
     "routes": [
         {
-            "src": "/assets/(.*)",
-            "dest": "/public/assets/$1"
+            "src": "/img/(.*)",
+            "dest": "/public/img/"
         },
         {
             "src": "/(.*)",
@@ -19,7 +18,6 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_KEY": "base64:hvwzX6+JJb0WxoCDPvLOdGC6ykwGB9q+CLXn5Nk5PaU=",
         "APP_URL": "https://sangfor-tes-cti.vercel.app/",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -31,6 +29,5 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "outputDirectory": "public",
-    "public": true
-}
+    "outputDirectory": "public"
+}   
